@@ -1,0 +1,40 @@
+/*  Main CSS  */
+
+    footer p {
+    color: white;
+    }
+
+    html,
+    body {
+            
+    font-family: "lato";
+    background-image: url(/images/galaxy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    max-height: max-content;
+    }
+        
+    .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+        
+    .footer p {
+    color: white;
+    }
+        
+    main {
+    color: white;
+    padding-top: 10%;
+    }
+        
+    @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+    }
