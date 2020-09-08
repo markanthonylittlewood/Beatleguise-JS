@@ -1,8 +1,6 @@
 /*  Main CSS  */
 
-    footer p {
-    color: white;
-    }
+  
 
     body {
             
@@ -27,11 +25,21 @@
     margin-top: 100px;
     }
         
-    .footer p {
+    .footer {
+    display: inline-block;
+    position: fixed;
+    background-color: black;
+    max-width: 100%;
     color: white;
-    align-content: center;
-    }
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: poppins, sans-serif;
+    left: 0;
+    bottom: 0;
         
+    }
+   
     main {
     color: white;
     padding-top: 10%;
