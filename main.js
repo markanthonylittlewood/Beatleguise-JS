@@ -82,7 +82,7 @@ function fetchIssues() {
                               '<h3>' + desc + '</h3>'+
                               '<p><span class="glyphicon glyphicon-time"></span> ' + severity + '</p>'+
                               '<p><span class="glyphicon glyphicon-user"></span> ' + assignedTo + '</p>'+
-                              '<p><span class="glythicon glythicon-tasks"></spam>' + issueProjectInput + '</p>' +
+                              '<p><span class="glythicon glythicon-tasks"></span>' + issueProjectInput + '</p>' +
                               '<a href="#" onclick="setStatusClosed(\''+id+'\')" class="btn btn-warning">Close</a> '+
                               '<a href="#" onclick="deleteIssue(\''+id+'\')" class="btn btn-danger">Delete</a>'+
                               '</div>';
